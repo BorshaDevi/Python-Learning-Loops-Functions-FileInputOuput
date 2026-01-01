@@ -62,3 +62,39 @@ print('End Loop')
 
 # In 2nd one - when the value x found,the loop continues running because there is a no break statement.
 # That is why it checks all elements and can find the value again.
+
+
+# Continue :continue skips the current iteration and moves to the next iteration of the loop.
+
+i=0
+while i<=5:
+    if(i==3):
+        i +=1
+        continue
+    print(i)
+    i += 1
+# 0
+# 1
+# 2
+# 4
+# 5
+#when i==3 is true it increases the value by 1 and then continue skip the print statement and starts the next iteration.
+# so,3 is not print.
+
+
+# If we need to print only odd numbers.
+i=1
+while i<=10:
+    if(i%2==0):
+        i +=1
+        continue
+    print(i)
+    i+=1
+# If we need to print only even numbers.
+i=1
+while i<=10:
+    if(i%2!=0):
+        i +=1
+        continue
+    print(i)
+    i+=1
