@@ -28,9 +28,11 @@ for i in range(1,10,2):
 # Pass is a null statement that does nothing.It is used as a placeholder for future code.
 #  It means  we have nothing to do in inside the loop but we need to write the loop.
 # we see
+
 # for i in range(10):
    
 # print('work continue.')    #expected an indented block after 'for' statement on line 31
+
 #  we can not write like this.loop statements need some work.That why use pass
 for i in range(5):
     pass
