@@ -30,3 +30,17 @@ def sum_value(p1,p2):
  return p1 + p2
 sum = sum_value(5,6)
 print(sum) # 11
+
+def value():
+    print('hello')
+
+v=value()   
+print(v) # none
+
+# we want to create a function which calculate the average of 3 numbers.
+def calc_average(a,b,c):
+    sum=a+b+c
+    average=sum/3
+    return average
+sum=calc_average(4,5,6)
+print(sum)
