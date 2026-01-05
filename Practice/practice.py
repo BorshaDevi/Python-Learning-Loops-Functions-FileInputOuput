@@ -93,4 +93,47 @@ for i in range(1,n+1):
 print(fact)    
          
 
+# 13. write a function to print the length of a list (list is the parameter)
+def length(list):
+    return len(list)
+count=length([1,2,4,5,6,"Hello",'world'])
+print(count)
+
+
+# 14. write a function to print the elements of a list in a single line(list is the parameter)
+def elements(value):
+    print(value , end=' ')
+    return 
+li=[1,2,4,5,6,"Hello",'world']
+elements(li[0])
+elements(li[1])
+elements(li[2])
+elements(li[3])
+elements(li[4])
+elements(li[5])
+elements(li[6])
+
+def print_list(list):
+    for item in list:
+        print(item , end=" ")
+print_list(li)       
+
+
+
+# 15. write a  function to find the factorial of n.(n is the parameter)
+def factorial(n):
+    fact=1
+    for i in range(1,n+1):
+        fact *=i
+    print(fact)
+    return
+factorial(5)
+
+
+# 16. write a function to convert USD to Taka.
+def calcu_value(usd):
+    taka=usd*120
+    print(taka)
+calcu_value(8)    
+
 
