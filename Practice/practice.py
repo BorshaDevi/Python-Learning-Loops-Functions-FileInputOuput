@@ -137,3 +137,34 @@ def calcu_value(usd):
 calcu_value(8)    
 
 
+# 17.Write a recursive function to calculate the sum of first n natural numbers.
+
+def sum1(n):
+    if(n == 0):
+        return 0
+    return sum1(n-1)+n
+print(sum1(10))
+
+# 18. Write a recursive function to print all elements in a list.[Hint : use list and index as parameters]
+
+list1=[1,2,3,4,5,6]
+def element(li):
+    if(li<0):
+        return 
+    print(list1[li])
+    element(li-1)
+element(len(list1) - 1)
+
+def elem(lists,li=0):
+    if(len(lists)==li):
+        return 
+    print(lists[li])
+    elem(lists,li+1)
+    
+nums=[1,2,3,4]     
+elem(nums)
+ 
+    
+    
+   
+    
