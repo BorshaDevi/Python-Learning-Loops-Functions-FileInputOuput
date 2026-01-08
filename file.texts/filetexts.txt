@@ -1,0 +1,3 @@
+Hello .
+This is file text for operation . This file excess for the File input and output .
+It helps us to understand about file input and output method.
