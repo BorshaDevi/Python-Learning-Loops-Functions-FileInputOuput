@@ -148,17 +148,28 @@ print(sum1(10))
 # 18. Write a recursive function to print all elements in a list.[Hint : use list and index as parameters]
 
 list1=[1,2,3,4,5,6]
-def element(li):
+# 1.
+def element(li,lis):
     if(li<0):
         return 
-    print(list1[li])
-    element(li-1)
-element(len(list1) - 1)
+    print(lis[li] , end=' ')
+    element(li-1 ,lis)
+element(len(list1) - 1 ,list1)
 
+#2.
+def element(lst, index):
+    if index < 0:
+        return
+    element(lst, index - 1)
+    print(lst[index])
+
+element(list1, len(list1) - 1)
+
+# 3.
 def elem(lists,li=0):
     if(len(lists)==li):
         return 
-    print(lists[li])
+    print(lists[li],end='')
     elem(lists,li+1)
     
 nums=[1,2,3,4]     
