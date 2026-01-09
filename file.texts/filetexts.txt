@@ -1,3 +1,4 @@
-Hello .
-This is file text for operation . This file excess for the File input and output .
-It helps us to understand about file input and output method.
+Now I want to learn about SQLBecause I want to be a Data Analisty
+ I learn about PowerBI for data vizulizastion
+ then I learn python libavery punda, Numpy
+ I learn about more data anatityes
