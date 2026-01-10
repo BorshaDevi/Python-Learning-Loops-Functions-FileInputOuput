@@ -1,4 +1,4 @@
-Now I want to learn about SQLBecause I want to be a Data Analisty
- I learn about PowerBI for data vizulizastion
- then I learn python libavery punda, Numpy
- I learn about more data anatityes
+Now I want to learn about SQLBecause I want to be a Data Analyst
+ I learn about PowerBI for data vi
+ then I learn python library Punda, Numpy
+ I learn about more data analytics

@@ -24,3 +24,14 @@ file1.write ("\n I learn about PowerBI for data vi")
 file1.write('\n then I learn python library Punda, Numpy')
 file1.write('\n I learn about more data analytics')
 file.close()
+
+
+# If we mention a file and this file are not exccest  ,python automaticaly create this file.
+f=open('sample.txt','w')
+f.write('Hello.This is new file create .')
+f.write('\nIt helps to how create new file when you do not even mention.')
+f.close()
+
+f=open('sample1.txt','a')
+f.write('This is also same upper example.')
+f.close()
