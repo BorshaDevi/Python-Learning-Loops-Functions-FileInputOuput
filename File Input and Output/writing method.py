@@ -26,7 +26,7 @@ file1.write('\n I learn about more data analytics')
 file.close()
 
 
-# If we mention a file and this file are not exccest  ,python automaticaly create this file.
+# If we mention a file and this file are not exist,python automaticaly create this file.
 f=open('sample.txt','w')
 f.write('Hello.This is new file create .')
 f.write('\nIt helps to how create new file when you do not even mention.')
