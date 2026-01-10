@@ -24,7 +24,7 @@ print(re) # here we do not find any text. Because it is truncated.
 file.write('Add new text') # now write and see in the file. this  text was added.
 file.close()
 
-# a+
-file=open('sample2.txt','a+')
+# # a+
+# file=open('sample2.txt','a+')
                                                                                                                                                                    
 
