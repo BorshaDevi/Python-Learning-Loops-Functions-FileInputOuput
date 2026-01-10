@@ -18,5 +18,13 @@ print(file.read())
 file.close()
 
 # w+
+file=open('sample1.txt','w+')
+re=file.read()
+print(re) # here we do not find any text. Because it is truncated.
+file.write('Add new text') # now write and see in the file. this  text was added.
+file.close()
 
+# a+
+file=open('sample2.txt','a+')
+                                                                                                                                                                   
 
