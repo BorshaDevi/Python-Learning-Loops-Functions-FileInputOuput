@@ -175,7 +175,24 @@ def elem(lists,li=0):
 nums=[1,2,3,4]     
 elem(nums)
  
+
+
+
+t=int(input("t:"))
+def fact_cal(n):
+    fact=1
+    for i in range(1,n+1):
+        fact *=i
+    return fact
+for i in range(t):
+    m=int(input("m:"))
+    print(fact_cal(m))
+
+
+# (n-1)! *n
+def reu_fun_fact(n):
+        if(n==0 or n==1):
+                return 1
+        return reu_fun_fact(n-1) * n  
     
-    
-   
-    
+print(reu_fun_fact(5))
