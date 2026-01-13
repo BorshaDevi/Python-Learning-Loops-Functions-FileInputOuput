@@ -196,3 +196,85 @@ def reu_fun_fact(n):
         return reu_fun_fact(n-1) * n  
     
 print(reu_fun_fact(5))
+
+
+
+# file operation practice
+
+
+# 19. Create a new file "practice.txt" using python.Add the following data in it:
+"""Hi everyone"
+"we are learning file I/O"
+'using Java.'
+"I like programming in Java."""
+
+with open('practice.txt','w') as file:
+    file.write('Hi everyone')
+    file.write('\nwe are learning file I/O')
+    file.write('\nusing Java.')
+    file.write('\nI like programming in Java.')
+
+# 20.Write a file replace all occurrences of 'java' with 'python' in above file.
+with open('practice.txt') as f:
+    data=f.read()
+    print(data)
+    new_data=data.replace('Java','python')
+    print(new_data)
+    with open('practice.txt','w') as f:
+        f.write(new_data)
+
+
+# 21. Search if the word 'learning' exists in the file or not.
+with open('practice.txt') as f:
+    data=f.read()
+    if(data.find('learning') !=-1):
+        print(data.find('learning'))
+        print('find the learning word in the file')
+    else:
+        print('Not found')    
+
+def check_for_word(n):
+    with open('practice.txt') as f:
+        data=f.read()
+        if(data.find(n) != -1):
+            print('found')
+        else:
+            print('Not found')    
+
+check_for_word('learning')
+
+
+# 22. write to function in which line of the file does the word "learning" occur first.Print -1 word not found.
+def check_for_line(n):
+    with open('practice.txt') as f:
+        data=True
+        new_line=1
+        while data:  # loop is running 
+            data=f.readline()
+            if(n in data):   # in means python automatically check for us.
+                print(new_line)
+                return new_line
+            new_line +=1  
+    return -1   
+check_for_line('learning')   
+result=check_for_line('learning')    
+print(result)  
+print(check_for_line('pyq') )   
+
+
+def check_for_line(n):
+    new_line=1
+    with open('practice.txt') as f:
+         while True:
+            data=f.readline()
+            if not (data):
+                # print(data)
+                break
+            if(n in data):
+                print(new_line)
+            new_line += 1
+check_for_line('learning')    
+
+# 23. From a file containing numbers separated by comma, print the count of even numbers.
+
+
