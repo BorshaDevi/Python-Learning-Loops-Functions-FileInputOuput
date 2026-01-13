@@ -1,34 +1,45 @@
-#  Python has built-in modules to perform common  file operations.
-#  A Module(like a code library) is a file written by another programmer that generally has functions we can use.
+# #  Python has built-in modules to perform common  file operations.
+# #  A Module(like a code library) is a file written by another programmer that generally has functions we can use.
 
-# check file:
+# # check file:
 
-import os
-if os.path.isfile('sample.txt'):
-    print('This file found') # If it found the file then it print these, otherways nothing print.
+# import os
+# if os.path.isfile('sample.txt'):
+#     print('This file found') # If it found the file then it print these, otherways nothing print.
 
 
-# check directory:
+# # check directory:
 
-import os
-if os.path.isdir('Practice'): # directory check means folder check.
-    print('It is a directory')
-else:
-    print( 'It is not a directory')    
+# import os
+# if os.path.isdir('Practice'): # directory check means folder check.
+#     print('It is a directory')
+# else:
+#     print( 'It is not a directory')    
 
-# create directory:
+# # create directory:
 
-import os
-os.mkdir('Sample Folder')
+# import os
+# os.mkdir('Sample Folder')
 
-# delete file
+# # delete file
 
-import os 
-os.remove('sample1.txt')
+# import os 
+# os.remove('sample1.txt')
 
-os.removedirs('Sample Folder') # we can also remove folder with use removedirs function from os module.
+# os.removedirs('Sample Folder') # we can also remove folder with use removedirs function from os module.
 
-#  Rename file
+# #  Rename file
 
-import os
-os.rename('sample.txt','sample1.txt')
+# import os
+# os.rename('sample.txt','sample1.txt')
+
+
+# # Move 
+# import shutil
+# shutil.move('sample1.txt','F:\\Drive D\\Python3\\testMove') # here I move a file with change it's name.
+
+# import shutil
+# shutil.move('sample2.txt', 'F:\\Drive D\\Python3\\testMove\\sample3.txt') # here I move a file with change it's name.
+
+# copy 
+
