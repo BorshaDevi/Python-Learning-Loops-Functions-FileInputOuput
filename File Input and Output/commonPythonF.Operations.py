@@ -1,45 +1,61 @@
-# #  Python has built-in modules to perform common  file operations.
-# #  A Module(like a code library) is a file written by another programmer that generally has functions we can use.
+#  Python has built-in modules to perform common  file operations.
+#  A Module(like a code library) is a file written by another programmer that generally has functions we can use.
 
-# # check file:
+# check file:
 
-# import os
-# if os.path.isfile('sample.txt'):
-#     print('This file found') # If it found the file then it print these, otherways nothing print.
-
-
-# # check directory:
-
-# import os
-# if os.path.isdir('Practice'): # directory check means folder check.
-#     print('It is a directory')
-# else:
-#     print( 'It is not a directory')    
-
-# # create directory:
-
-# import os
-# os.mkdir('Sample Folder')
-
-# # delete file
-
-# import os 
-# os.remove('sample1.txt')
-
-# os.removedirs('Sample Folder') # we can also remove folder with use removedirs function from os module.
-
-# #  Rename file
-
-# import os
-# os.rename('sample.txt','sample1.txt')
+import os
+if os.path.isfile('sample.txt'):
+    print('This file found') # If it found the file then it print these, otherways nothing print.
 
 
-# # Move 
-# import shutil
-# shutil.move('sample1.txt','F:\\Drive D\\Python3\\testMove') # here I move a file with change it's name.
+# check directory:
 
-# import shutil
-# shutil.move('sample2.txt', 'F:\\Drive D\\Python3\\testMove\\sample3.txt') # here I move a file with change it's name.
+import os
+if os.path.isdir('Practice'): # directory check means folder check.
+    print('It is a directory')
+else:
+    print( 'It is not a directory')    
+
+# create directory:
+
+import os
+os.mkdir('Sample Folder')
+
+# delete file
+
+import os 
+os.remove('sample1.txt')
+
+os.removedirs('Sample Folder') # we can also remove folder with use removedirs function from os module.
+
+#  Rename file
+
+import os
+os.rename('sample.txt','sample1.txt')
+
+
+# Move 
+import shutil
+shutil.move('sample1.txt','F:\\Drive D\\Python3\\testMove') # here I move a file with change it's name.
+
+import shutil
+shutil.move('sample2.txt', 'F:\\Drive D\\Python3\\testMove\\sample3.txt') # here I move a file with change it's name.
 
 # copy 
+
+import shutil
+shutil.copy('F:\\Drive D\\Python3\\testMove\\sample1.txt','F:\\Drive D\\Python3\\testMove\\sample1_copy.txt')
+
+import shutil
+shutil.copy2('F:\\Drive D\\Python3\\testMove\\sample1.txt', 'F:\\Drive D\\Python3\\testMove\\sample1_copy1.txt') 
+#It's copy and also copy time , date,permission. 
+
+import shutil
+shutil.copytree('testMove','textMove_copy') 
+# create copy with full destination folder
+
+import shutil
+shutil.rmtree('textMove_copy')  
+# This is the delete folder.
+
 
