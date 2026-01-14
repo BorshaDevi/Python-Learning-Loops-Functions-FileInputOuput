@@ -1,4 +1,1 @@
-Hi everyone
-we are learning file I/O
-using python.
-I like programming in python.
+1,2,76, 84, 90 ,101 
