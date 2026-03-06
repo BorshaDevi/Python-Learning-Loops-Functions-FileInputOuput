@@ -2,11 +2,11 @@
 <p>Welcome to my <b>Journey of Learning Python(series 3)</b>.This serves as a strong guideline if you're beginner or if you're trying to learn python.You can use this as a resource. </p>
 <h1>📔Concepts & Practice</h1>
 <ul>
-<li><a href='https://github.com/BorshaDevi/Python-Learning-Lists-Tuples-Set-Dictionary/tree/main/Lists'>List Concepts</a></li>
-<li><a href='https://github.com/BorshaDevi/Python-Learning-Lists-Tuples-Set-Dictionary/tree/main/Tuples'>Tuple Concepts</a></li>
-<li><a href='https://github.com/BorshaDevi/Python-Learning-Lists-Tuples-Set-Dictionary/tree/main/Set'>Set Concepts</a></li>
-<li><a href='https://github.com/BorshaDevi/Python-Learning-Lists-Tuples-Set-Dictionary/tree/main/Dictionary'>Dictionary Concepts</a></li>
-<li><a href='https://github.com/BorshaDevi/Python-Learning-Lists-Tuples-Set-Dictionary/tree/main/practice'>Practice Problems</a></li> 
+<li><a href='https://github.com/BorshaDevi/Python-Learning-Loops-Functions-FileInputOuput/tree/main/Loop'>Loops</a></li>
+<li><a href='https://github.com/BorshaDevi/Python-Learning-Loops-Functions-FileInputOuput/tree/main/Functions'>Functions</a></li>
+<li><a href='https://github.com/BorshaDevi/Python-Learning-Loops-Functions-FileInputOuput/tree/main/Recursion'>Recursion</a></li>
+<li><a href='https://github.com/BorshaDevi/Python-Learning-Loops-Functions-FileInputOuput/tree/main/File%20Input%20and%20Output'> File Input & Output</a></li>
+<li><a href='https://github.com/BorshaDevi/Python-Learning-Loops-Functions-FileInputOuput/tree/main/Practice'>Practice Problems</a></li> 
 </ul>
 <h1>🌩️About</h1>
 <p>A beginner-friendly Python learning repository covering Lists, Tuples, Sets, and Dictionaries with concepts, examples, and practice problems.</p>
@@ -31,3 +31,4 @@
 <p>Building Dreams With Code.</p>
 ---------------------------------
 <p>Happy coding journey...😊</p>
+
