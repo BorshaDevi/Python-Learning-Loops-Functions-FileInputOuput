@@ -18,18 +18,17 @@
 <h2>Website</h2>
 <a href='https://www.python.org/doc/'>Python Documentation</a>
 <h1>🚀PDF File for Interview Practice</h1>
-<p>This document helps beginners understand Python data structures such as lists, tuples, sets, and dictionaries with clear explanations and practical examples. It demonstrates how these structures store, organize, and manage data efficiently in Python programs. </p>
+<p>This document helps beginners understand core Python concepts such as Loops, Functions, File Input/Output, and Recursion with clear explanations and practical examples. It demonstrates how these concepts are applied in Python programs to solve real-world problems efficiently. </p>
 <h6><b>:bulb:What You Will Learn</b></h6>
 <ul>
-  <li>How to create and use lists, tuples, sets, and dictionaries.</li>
-  <li>Key differences between mutable and immutable data structures.</li>
-  <li>Common operations like adding, removing, and accessing elements.</li>
-  <li>Practical coding examples to strengthen your understanding.</li>
+  <li>How to use loops to repeat tasks and iterate over data.</li>
+  <li>How to define and call functions, including default arguments.</li>
+  <li>How to read from and write to files in Python.</li>
+  <li>How recursion works and how to implement recursive functions like factorial and Fibonacci.</li>
+  <li>Practical coding examples to strengthen your understanding and problem-solving skills.</li>
 </ul>
 <b><a href='https://drive.google.com/file/d/1KlhkNV9NU6tUXmCKeIepwIC7_hfUPzYr/view?usp=sharing'>PDF File</a></b>
 <hr></hr>
 <p>Building Dreams With Code.</p>
 ---------------------------------
 <p>Happy coding journey...😊</p>
-
-
