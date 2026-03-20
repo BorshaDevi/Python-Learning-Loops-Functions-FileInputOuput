@@ -11,7 +11,7 @@
 <h1>🌩️About</h1>
 <p>A beginner-friendly Python learning repository covering Loops, Functions, File Input/Output, and Recursion with concepts, examples, and practice problems.</p>
 <h1>📌Projects</h1>
-<h4>Project 1: Here Two Projects</h4>
+<h3>Project 1: Here Two Projects</h3>
 <h4>Guess The Number</h4>
 <h5>Description:</h5>
 <p>A simple command-line game where the computer randomly selects a number and the user tries to guess it.</p>
