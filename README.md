@@ -11,7 +11,16 @@
 <h1>🌩️About</h1>
 <p>A beginner-friendly Python learning repository covering Loops, Functions, File Input/Output, and Recursion with concepts, examples, and practice problems.</p>
 <h1>📌Projects</h1>
-<p>Project is coming soon.....:!:</p>
+<h4>Project 1: Here Two Projects</h4>
+<h6>Guess The Number</h6>
+<h5>Description:</h5>
+<p>A Python program that generates strong and secure random passwords.</p>
+<h6>Random Password Generator</h6>
+<h5>Description:</h5>
+<p>A Python program that generates strong and secure random passwords.</p>
+[view code](https://github.com/BorshaDevi/python-mini-project)
+
+<p>A simple command-line game where the computer randomly selects a number and the user tries to guess it.</p>
 <h1>📖Resources</h1>
 <h2>Online Course</h2>
 <a href='https://youtu.be/ERCMXc8x7mc?si=luXPI1caIqD2hl52'>Python Tutorial for Beginners</a>
