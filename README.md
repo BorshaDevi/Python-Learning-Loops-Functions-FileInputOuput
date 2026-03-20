@@ -19,8 +19,9 @@
 <h5>Description:</h5>
 <p>A Python program that generates strong and secure random passwords.</p>
 
-[view code](https://github.com/BorshaDevi/python-mini-project)
+💻:[view code](https://github.com/BorshaDevi/python-mini-project)
 
+<p>More projects coming soon.....!</p>
 
 <h1>📖Resources</h1>
 <h2>Online Course</h2>
