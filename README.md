@@ -14,10 +14,10 @@
 <h4>Project 1: Here Two Projects</h4>
 <h4>Guess The Number</h4>
 <h5>Description:</h5>
-<p>A Python program that generates strong and secure random passwords.</p>
+<p>A simple command-line game where the computer randomly selects a number and the user tries to guess it.</p>
 <h4>Random Password Generator</h4>
 <h5>Description:</h5>
-<p>A simple command-line game where the computer randomly selects a number and the user tries to guess it.</p>
+<p>A Python program that generates strong and secure random passwords.</p>
 
 [view code](https://github.com/BorshaDevi/python-mini-project)
 
